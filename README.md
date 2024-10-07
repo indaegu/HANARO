@@ -69,12 +69,12 @@
 - 시계열 메트릭 수집과 메트릭 시각화를 위해 <strong>Prometheus, Grafana</strong> 사용
 
 #### 2-3-4. 주요 응용 기술 : 그 외 활용 기술
-![페이지 12](https://github.com/user-attachments/assets/4001edf4-7244-46a9-a4a5-c4c6415e88f2)
+![페이지 8](https://github.com/user-attachments/assets/5b19b158-74f5-48ac-8a3f-371eb9537d81)
 
 # 3. 프로젝트 결과
 
 ### 3-1. 사용 시나리오
-![페이지 13](https://github.com/user-attachments/assets/3a1e3fdf-d585-460d-ad4c-eb791ba4a2ea)
+![페이지 9](https://github.com/user-attachments/assets/ae289f36-d583-471f-a36a-53f068cc7eac)
 
 ### 3-2. 발표 ppt
 [발표자료<img src="https://github.com/user-attachments/assets/b216a7b0-7e63-4f21-ace3-84c56ef81c3d" />
