@@ -77,7 +77,8 @@
 ![페이지 13](https://github.com/user-attachments/assets/3a1e3fdf-d585-460d-ad4c-eb791ba4a2ea)
 
 ### 3-2. 발표 ppt
-![페이지 1 - 판넬 1](https://github.com/user-attachments/assets/b6935f49-ac45-4dd5-8de4-b2f56ba41c40)
+[발표자료<img src="https://github.com/user-attachments/assets/b216a7b0-7e63-4f21-ace3-84c56ef81c3d" />
+](/산출물/성창민_하나로.pdf) <br/>
 
 ### 3-3. 시연 동영상
 
