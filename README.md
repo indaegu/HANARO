@@ -71,12 +71,13 @@
 ### 3-3. 시연 동영상
 
 <a href="https://">시연 동영상</a><br/>
+![image](https://github.com/user-attachments/assets/0362a7c2-b69a-4a3d-b150-b6ed29a446fc)
 
 # 4. 본인 소개
 
 | 구분      | 내용                                                                                         | 비고                                       |
 | --------- | -------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| 이름      | 성창민                                                                                       |                                            |
+| 이름      | 성창민                                                                                       |   <img src="https://github.com/user-attachments/assets/f277dcc5-3ce2-4aca-a751-865dbc0d6bea" width="150px" >|
 | 연락처    | 이메일                                                                                       | scm8572@naver.com                          |
 | 전공      | 정보통신공학전공                                                                             | 졸업(2024.02.22)                           |
 | Skill set | Language                                                                                     | Java, Javascript, PL/SQL, C++, C, Python   |
