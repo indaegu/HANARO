@@ -1,0 +1,151 @@
+.cardproduct-back {
+  /* background-color: white; */
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardproduct-container {
+  background-color: rgb(245, 245, 245);
+  width: 90%;
+  max-width: 1600px;
+  min-height: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  font-family: "notosans";
+}
+.cardproduct-top-title {
+  font-size: 35px;
+  transition: all 0.5s ease-in-out; /* 메시지 투명도 변화에 대한 부드러운 전환 */
+}
+
+.cardproduct-top {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background: rgb(245, 245, 245); /* 배경 색상 설정 */
+  z-index: 10; /* 다른 요소들 위에 위치하도록 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0; /* 상하 패딩 추가 */
+  min-height: 150px; /* 최소 높이 설정 */
+}
+.cardproduct-top-searchbar {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 20px 10px 30px;
+  font-size: 16px;
+  height: 55px;
+  border: 2px solid #ccc;
+  /* border-radius: 25px; */
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  transition: border-color 0.5s;
+  outline: none;
+  border-right: none; /* 버튼과 일체감을 주기 위해 오른쪽 테두리 제거 */
+}
+
+.search-input:focus {
+  border-color: rgb(0, 144, 127);
+  box-shadow: 0 0 8px rgba(0, 144, 127, 0.5);
+}
+
+.search-button {
+  background: #00907f;
+  border: 2px solid #00907f;
+  border-radius: 0 25px 25px 0; /* 왼쪽 모서리는 둥글지 않게 설정 */
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  display: flex;
+  flex-direction: columns;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+}
+
+.search-button:hover {
+  background-color: #00907f;
+  border-color: #00907f;
+}
+
+.search-button svg {
+  height: 20px; /* SVG 아이콘 크기 조정 */
+  width: 20px;
+}
+
+.cardproduct-article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 20px; /* 탑 패딩을 추가하여 타이틀과 구분 */
+  min-height: 500px; /* 결과가 없는 경우에도 일정 높이 유지 */
+}
+
+/* 개별 카드 컨테이너 */
+.cardproduct-individual-container {
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0; /* 초기 투명도 */
+  transform: translateY(20px); /* 초기 위치 조정 */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* 카드가 활성화될 때의 상태 */
+.cardproduct-individual-container.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.cardproduct-individual-container-img {
+  width: 17rem; /* 이미지가 컨테이너 너비에 맞게 조정 */
+  height: 17rem;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* 부드러운 전환 효과 */
+}
+.cardproduct-individual-container img {
+  width: 100%; /* 이미지가 컨테이너 너비에 맞게 조정 */
+  height: 100%; /* 고정된 높이 설정 */
+  object-fit: contain; /* 이미지가 컨테이너에 맞게 조정되도록 설정 */
+  border-radius: 5px; /* 이미지에도 둥근 테두리 적용 */
+  cursor: pointer;
+}
+.cardproduct-individual-container-img:hover {
+  transform: scale(1.05); /* 호버 시 카드 확대 */
+}
+
+.cardproduct-individual-container h3,
+.cardproduct-individual-container p {
+  margin: 10px 0; /* 헤더와 파라그래프의 상하 마진 설정 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}

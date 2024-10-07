@@ -1,0 +1,155 @@
+.recommendchoice-back {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0d1916; */
+}
+.recommendchoice-container {
+  width: 80%;
+  margin: 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0d1916; */
+  object-fit: fill;
+  min-height: 40rem;
+  margin-bottom: 5rem;
+  font-family: "notosans";
+  gap: 6rem;
+}
+.recommendchoice-title {
+  line-height: 2.5rem;
+  width: 30rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.recommendchoice-title-seciton-container {
+  margin-top: 2rem;
+}
+.recommendchoice-choice-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.recommendchoice-choice-section1,
+.recommendchoice-choice-section2 {
+  background-color: rgb(245, 245, 245);
+  width: 30rem;
+  height: 25rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 0.1rem; */
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.recommendchoice-choice-section1 input,
+.recommendchoice-choice-section2 input {
+  display: none;
+}
+
+.recommendchoice-choice-section1 button,
+.recommendchoice-choice-section2 button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recommendchoice-choice-section1:hover,
+.recommendchoice-choice-section2:hover {
+  background-color: #0057b32d;
+}
+
+.recommendchoice-start-button button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgba(0, 144, 127, 0.6);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 30rem;
+  height: 4rem;
+}
+
+.recommendchoice-start-button button:hover {
+  background-color: rgba(0, 144, 127, 0.9);
+}
+
+.recommendchoice-choice-section1.selected,
+.recommendchoice-choice-section2.selected {
+  background-color: #d1ecf1;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  position: relative; /* 체크 아이콘을 위해 필요 */
+}
+
+.recommendchoice-choice-section1.selected:hover,
+.recommendchoice-choice-section2.selected:hover {
+  background-color: #c6e0e5;
+}
+
+.recommendchoice-choice-section1.selected::after,
+.recommendchoice-choice-section2.selected::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 123, 255, 0.2);
+  pointer-events: none;
+}
+
+.recommendchoice-choice-section2 img {
+  position: relative;
+  z-index: 2000;
+
+  width: 13rem;
+  margin-bottom: 4.5rem;
+  top: 2rem;
+  filter: drop-shadow(5px 5px 5px #00000044);
+}
+
+.recommendchoice-choice-section1 img {
+  position: relative;
+  z-index: 2000;
+  width: 19rem;
+  filter: drop-shadow(5px 5px 5px #00000044);
+}
+
+/* 체크 아이콘 스타일 */
+.check-icon {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 3rem;
+  color: #28a745;
+  opacity: 0;
+  z-index: 3000 !important;
+}
+
+/* 섹션이 선택될 때 체크 아이콘의 opacity와 transform을 변경 */
+.recommendchoice-choice-section1.selected .check-icon,
+.recommendchoice-choice-section2.selected .check-icon {
+  opacity: 1;
+}

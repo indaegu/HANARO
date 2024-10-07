@@ -1,0 +1,113 @@
+.recommend-certificate-form-loader-container {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader2 {
+  width: 128px; /* 2배 */
+  height: 88px; /* 2배 */
+  position: relative;
+  border: 10px solid rgba(62, 191, 171, 1); /* 2배 */
+  border-radius: 16px; /* 2배 */
+}
+.loader2::before {
+  content: "";
+  position: absolute;
+  border: 10px solid rgba(62, 191, 171, 1); /* 2배 */
+  width: 64px; /* 2배 */
+  height: 56px; /* 2배 */
+  border-radius: 50% 50% 0 0;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -100%);
+}
+.loader2::after {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 16px; /* 2배 */
+  height: 16px; /* 2배 */
+  border-radius: 50%;
+  background-color: rgba(62, 191, 171, 1);
+  box-shadow: 32px 0 rgba(62, 191, 171, 1), -32px 0 rgba(62, 191, 171, 1); /* 2배 */
+  animation: flash 0.5s ease-out infinite alternate;
+}
+
+@keyframes flash {
+  0% {
+    background-color: rgba(62, 191, 171, 0.25);
+    box-shadow: 32px 0 rgba(62, 191, 171, 0.25), -32px 0 rgba(62, 191, 171, 1); /* 2배 */
+  }
+  50% {
+    background-color: rgba(62, 191, 171, 1);
+    box-shadow: 32px 0 rgba(62, 191, 171, 0.25),
+      -32px 0 rgba(62, 191, 171, 0.25); /* 2배 */
+  }
+  100% {
+    background-color: rgba(62, 191, 171, 0.25);
+    box-shadow: 32px 0 rgba(62, 191, 171, 1), -32px 0 rgba(62, 191, 171, 0.25); /* 2배 */
+  }
+}
+
+/* 인증 완료 애니메이션 */
+@keyframes fadeInCheckMark {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  70% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes checkMarkStroke {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* 인증 완료 시 애니메이션 컨테이너 */
+.auth-complete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: rgba(62, 191, 171, 0.15);
+  border: 5px solid rgba(62, 191, 171, 1);
+  position: relative;
+  animation: fadeInCheckMark 0.8s ease-out;
+}
+
+/* SVG 체크 마크 아이콘 */
+.auth-complete svg {
+  width: 80px;
+  height: 80px;
+  stroke: rgba(62, 191, 171, 1);
+  stroke-width: 6; /* 굵기 줄임 */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: checkMarkStroke 1.5s ease forwards 0.4s;
+}
+
+.auth-complete svg path {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation: checkMarkStroke 1.5s ease forwards 0.4s;
+}

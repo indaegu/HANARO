@@ -1,0 +1,50 @@
+.footer-container {
+  display: flex;
+  flex-direction: column; /* 주로 세로 정렬 */
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); */
+  background-color: #2a2a2d;
+  font-family: "notosans";
+}
+.footer-nav {
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1600px;
+}
+.footer-address {
+  max-width: 1600px;
+
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap; /* 내용이 넘칠 경우 다음 줄로 넘김 */
+}
+
+.footer-top-container {
+  cursor: pointer;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-address span {
+  margin-right: 30px; /* 오른쪽 간격 설정 */
+  margin-bottom: 10px; /* 줄 바꿈이 발생할 때 아래쪽 간격 설정 */
+  cursor: pointer;
+  color: #666;
+}
+.footer-address span strong {
+  color: #ffffff;
+}
+.footer-logo {
+  height: 50px;
+}

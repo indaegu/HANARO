@@ -1,0 +1,97 @@
+.cardrecommend-container {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "notosans";
+}
+.cardrecommend-section1-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.cardrecommend-section2-marquee {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* 넘치는 부분을 숨김으로써 스크롤을 방지 */
+}
+.rfm-marquee-container {
+  overflow: hidden;
+}
+.cardrecommend-card-img-container {
+  width: 550px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: -150px; /* 오른쪽 마진을 음수로 설정하여 이미지 간 간격을 좁힙니다 */
+}
+
+.cardrecommend-card-img {
+  max-width: 320px;
+  max-height: 320px;
+  /* filter: drop-shadow(5px 5px 5px #0000007c); */
+  cursor: pointer;
+}
+
+.cardrecommend-section2-marquee ::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.cardrecommend-section2-marquee {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.cardrecommend-card-col {
+  transform: rotate(30deg);
+  filter: drop-shadow(
+    40px 15px 12px #00000029
+  ); /* 세로 이미지용 기본 그림자 설정 */
+}
+
+.cardrecommend-card-row {
+  transform: rotate(120deg);
+  filter: drop-shadow(
+    15px -40px 12px #0000002e
+  ); /* 가로 이미지용 그림자 설정 */
+}
+.cardrecommend-section3-button {
+  background-color: #000000;
+  width: 400px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+.cardrecommend-button {
+  font-size: 30px;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cardrecommend-section3-button:hover {
+  opacity: 0.85;
+}
+
+.css-14iyyou {
+  text-align: left;
+}

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "message": "이달의 인기카드 전송완료",
+  "data": [
+    {
+      "cardName": "Jade Classic1",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2657card.png",
+      "cardId" : "CREDIT-156"
+    },
+    {
+      "cardName": "Jade Classic2",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2658card.png",
+      "cardId" : "CREDIT-156"
+    },
+    {
+      "cardName": "Jade Classic3",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2659card.png",
+      "cardId" : "CREDIT-156"
+    },
+    {
+      "cardName": "Jade Classic4",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2660card.png",
+      "cardId" : "CREDIT-156"
+    }
+  ]
+}

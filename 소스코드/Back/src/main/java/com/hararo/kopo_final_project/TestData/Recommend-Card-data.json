@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "message": "추천카드 데이터 산출완료",
+  "data": [
+    {
+      "cardProductId": "CP001",
+      "CardProductName": "하나 골드 카드",
+      "CardProductImgUrl": "https://example.com/image1.jpg",
+      "benefitAllAmount": 150000,
+      "pickingRate": 0.1,
+      "benefits": [
+        {
+          "benefitCategoryName": "주유",
+          "benefitAmount": 5000
+        },
+        {
+          "benefitCategoryName": "온라인쇼핑",
+          "benefitAmount": 20000
+        },
+        {
+          "benefitCategoryName": "백화점",
+          "benefitAmount": 3000
+        }
+      ]
+    },
+    {
+      "cardProductId": "CP002",
+      "CardProductName": "우리 플래티넘 카드",
+      "CardProductImgUrl": "https://example.com/image2.jpg",
+      "benefitAllAmount": 180000,
+      "pickingRate": 0.15,
+      "benefits": [
+        {
+          "benefitCategoryName": "해외결제",
+          "benefitAmount": 10000
+        },
+        {
+          "benefitCategoryName": "항공",
+          "benefitAmount": 50000
+        },
+        {
+          "benefitCategoryName": "영화",
+          "benefitAmount": 7000
+        }
+      ]
+    },
+    {
+      "cardProductId": "CP003",
+      "CardProductName": "신한 프리미엄 카드",
+      "CardProductImgUrl": "https://example.com/image3.jpg",
+      "benefitAllAmount": 200000,
+      "pickingRate": 0.2,
+      "benefits": [
+        {
+          "benefitCategoryName": "대중교통",
+          "benefitAmount": 2500
+        },
+        {
+          "benefitCategoryName": "커피",
+          "benefitAmount": 4500
+        },
+        {
+          "benefitCategoryName": "디지털 컨텐츠",
+          "benefitAmount": 12000
+        }
+      ]
+    }
+  ]
+}

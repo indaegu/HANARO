@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "message": "성공적으로 가맹점 데이터를 조회했습니다.",
+  "data": [
+    {
+      "id": 1,
+      "name": "스타벅스 광명철산역점",
+      "latitude": 37.4751655,
+      "longitude": 126.866124,
+      "category": "카페",
+      "details": {
+        "address": "경기 광명시 오리로 865 (철산동)",
+        "contact": "1522-3232",
+        "hours": "08:00 - 22:00",
+        "description": "편안한 분위기의 카페 A입니다."
+      }
+    },
+    {
+      "id": 2,
+      "name": "다이소 철산역점",
+      "latitude": 37.475339,
+      "longitude": 126.865978,
+      "category": "마트",
+      "details": {
+        "address": "경기 광명시 오리로 865 철산빌딩",
+        "contact": "1522-4400",
+        "hours": "11:00 - 23:00",
+        "description": "다이소"
+      }
+    },
+    {
+      "id": 3,
+      "name": "세븐일레븐 철산스타힐스점",
+      "latitude": 37.4759616,
+      "longitude": 126.865955,
+      "category": "편의점",
+      "details": {
+        "address": "경기 광명시 오리로 870",
+        "contact": "02-2060-7687",
+        "hours": "10:00 - 20:00",
+        "description": "세븐일레븐"
+      }
+    },
+    {
+      "id": 4,
+      "name": "에스약국",
+      "latitude": 37.4761478,
+      "longitude": 126.865974,
+      "category": "약국",
+      "details": {
+        "address": "경기 광명시 오리로 870 스타힐스빌딩 1층",
+        "contact": "02-2685-1000",
+        "hours": "06:00 - 24:00",
+        "description": "약국"
+      }
+    },
+    {
+      "id": 5,
+      "name": "버거킹",
+      "latitude": 37.4759866,
+      "longitude": 126.866061,
+      "category": "식당",
+      "details": {
+        "address": "경기 광명시 오리로 870 1층",
+        "contact": "070-7459-7017",
+        "hours": "24시간 운영",
+        "description": "버거킹"
+      }
+    }
+  ]
+}

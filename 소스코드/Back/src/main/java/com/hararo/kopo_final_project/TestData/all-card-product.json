@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "message": "모든 카드 상품 조회완료",
+  "data": [
+    {
+      "cardName": "Jade Classic",
+      "cardId": "CREDIT-156",
+      "cardDescription" : "제일 이상적인 카드 Jade",
+      "cardImgUrl" : "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2657card.png"
+    },
+    {
+      "cardName": "트래블로그 체크카드",
+      "cardId": "CREDIT-156",
+      "cardDescription" : "제일 이상적인 카드 Jade",
+      "cardImgUrl" : "https://www.hanacard.co.kr/ATTACH/NEW_HOMEPAGE/images/cardinfo/card_img/13889.gif"
+    }
+  ]
+}

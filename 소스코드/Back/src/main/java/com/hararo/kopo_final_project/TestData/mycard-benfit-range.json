@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "message": "사용자 카드 상세 조회 완료",
+  "data": {
+    "cardName": "트래블로그 체크카드",
+    "cardImage": "https://d1c5n4ri2guedi.cloudfront.net/card/2411/card_img/26602/2411card.png",
+    "cardNumber": "1234-1234-1234-1234",
+    "applicationDate": "2023-08-01",
+    "cardStatus": "정상",
+    "usedAmount": 45000,
+    "performanceBracket": [0, 100000, 200000],
+    "customPerformanceBracket": 100000,
+    "amountUntilNextBracket": 95500,
+    "currentRange": {
+      "rangeNum": 1,
+      "range": [0, 100000],
+      "totalMaxBenefitAmount": 1500,
+      "usedBenefitAmount": 1200,
+      "remainingBenefitAmount": 300,
+      "benefits": [
+        {
+          "description": "페이 결제 시 0.5% 캐시백",
+          "cashBackAmount": 0,
+          "type": "cashback",
+          "usedAmount": 250,
+          "remainingAmount": 250
+        },
+        {
+          "description": "커피 구매 시 10% 할인",
+          "discountAmount": 1000,
+          "type": "discount",
+          "usedAmount": 0,
+          "remainingAmount": 200
+        },
+        {
+          "description": "온라인 구독 서비스 구매 시 5% 캐시백",
+          "cashBackAmount": 200,
+          "type": "cashback",
+          "usedAmount": 50,
+          "remainingAmount": 150
+        },
+        {
+          "description": "스포츠 용품 구매 시 15% 할인",
+          "discountAmount": 3000,
+          "type": "discount",
+          "usedAmount": 450,
+          "remainingAmount": 255
+        },
+        {
+          "description": "주말 영화 티켓 구매 시 20% 할인",
+          "discountAmount": 1200,
+          "type": "discount",
+          "usedAmount": 600,
+          "remainingAmount": 60
+        }
+      ]
+    },
+    "transactionDetails": [
+      {
+        "transactionName": "스타벅스",
+        "transactionAmount": 5000,
+        "benefitAmount": 500,
+        "cardUsed": "트래블로그 체크카드",
+        "transactionTime": "14:35",
+        "transactionDate": "08.14 (수)",
+        "transactionCategory": "음료"
+      },
+      {
+        "transactionName": "넷플릭스",
+        "transactionAmount": 12000,
+        "benefitAmount": 600,
+        "cardUsed": "트래블로그 체크카드",
+        "transactionTime": "18:20",
+        "transactionDate": "08.13 (화)",
+        "transactionCategory": "구독 서비스"
+      }
+    ]
+  }
+}

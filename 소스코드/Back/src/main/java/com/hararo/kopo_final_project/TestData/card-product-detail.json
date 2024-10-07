@@ -1,0 +1,45 @@
+{
+  "success": true,
+  "message": "카드 상품 상세 데이터 조회 완료",
+  "data": {
+    "cardImgUrl": "https://example.com/path/to/image.jpg",
+    "cardName": "예시 카드 이름",
+    "cardDescription": "이 카드는 국내외 여행 보험 등 다양한 혜택을 제공합니다.",
+    "cardProductPdfUrl": "https://example.com/path/to/product/details.pdf",
+    "cardApplyUrl": "https://example.com/apply",
+    "cardReleaseDate": "2021-04-15",
+    "complianceReview": "이 카드는 모든 연방 금융 규제를 준수합니다.",
+    "annualFeeList": [
+      {
+        "annulFeeDescription": "첫 해 연회비 면제."
+      },
+      {
+        "annulFeeDescription": "두 번째 해부터 연회비 $99 부과."
+      }
+    ],
+    "majorBenefitList": [
+      {
+        "benefitTitle": "여행 보험",
+        "benefitDescription": "국내외 여행 시 종합 여행 보험 제공.",
+        "benefitIconImgUrl": "https://example.com/path/to/benefit/icon1.jpg"
+      },
+      {
+        "benefitTitle": "캐시백",
+        "benefitDescription": "모든 구매에 대해 5% 캐시백 제공.",
+        "benefitIconImgUrl": "https://example.com/path/to/benefit/icon2.jpg"
+      }
+    ],
+    "useInstructionList": [
+      {
+        "useInstructionTitle": "활성화",
+        "useInstructionDescription": "온라인으로 카드를 활성화하는 방법.",
+        "useInstructionCode": "ACT100"
+      },
+      {
+        "useInstructionTitle": "결제",
+        "useInstructionDescription": "시간 내에 카드 결제를 완료하는 단계.",
+        "useInstructionCode": "PAY200"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "message": "사용자 카드 목록 조회 완료",
+  "data": [
+    {
+      "cardName": "트래블로그 체크카드",
+      "cardImage": "https://d1c5n4ri2guedi.cloudfront.net/card/2411/card_img/26602/2411card.png",
+      "cardNumber": "1234-1234-1234-1234",
+      "applicationDate": "2023-08-01",
+      "cardStatus": "정상",
+      "usedAmount": 45000,
+      "performanceBracket": [
+        0,
+        100000,
+        200000            ],
+      "customPerformanceBracket": 100000,
+      "amountUntilNextBracket": 95500
+    },
+    {
+      "cardName": "Young Hana+ 체크카드",
+      "cardImage": "https://d1c5n4ri2guedi.cloudfront.net/card/2411/card_img/26602/2411card.png",
+      "cardNumber": "9876-1234-1234-5432",
+      "applicationDate": "2023-05-20",
+      "cardStatus": "정상",
+      "usedAmount": 120000,
+      "performanceBracket": [
+        0,
+        100000,
+        200000,
+        300000
+      ],
+      "customPerformanceBracket": 100000,
+      "amountUntilNextBracket": 98800
+    },
+    {
+      "cardName": "삼성리워즈 하나 체크카드",
+      "cardImage": "https://d1c5n4ri2guedi.cloudfront.net/card/2446/card_img/27741/2446card.png",
+      "cardNumber": "5678-1234-1234-1234",
+      "applicationDate": "2023-07-15",
+      "cardStatus": "정상",
+      "usedAmount": 220000,
+      "performanceBracket": [
+        0,
+        100000,
+        200000,
+        300000
+      ],
+      "customPerformanceBracket": 100000,
+      "amountUntilNextBracket": 97000
+    }
+  ]
+}

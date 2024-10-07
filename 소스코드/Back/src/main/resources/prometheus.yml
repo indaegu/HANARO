@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s  # 메트릭 수집 주기
+
+scrape_configs:
+  - job_name: 'spring-boot-app'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['34.47.107.213:8080']  # Spring Boot 애플리케이션이 실행 중인 주소

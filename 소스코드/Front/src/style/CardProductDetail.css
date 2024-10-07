@@ -1,0 +1,215 @@
+.cardproductdetail-back {
+  /* background-color: white; */
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardproductdetail-container {
+  background-color: rgb(245, 245, 245);
+  width: 80%;
+  max-width: 1600px;
+  min-height: 700px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+  font-family: "notosans";
+}
+.cardproductdetaill-major-benefit-list-container ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+.cardproductdetail-section {
+  width: 100%;
+  margin: 60px 0px;
+  flex-wrap: wrap;
+}
+.cardproductdetail-section1 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  gap: 10rem;
+  padding: 20px;
+}
+.cardproductdetail-img-buuton-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0rem;
+}
+.cardproductdetail-section-card-img {
+  width: 15rem;
+  margin-bottom: 1rem;
+}
+.cardproductdetail-apply-button {
+  width: 20rem;
+  height: 4rem;
+  margin: 1rem 2rem;
+  background-color: #f5f6f8;
+  cursor: pointer;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: black;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+/* .cardproductdetail-apply-button:hover {
+  background-color: #00b3a1cb;
+  color: white;
+} */
+
+.cardproductdetail-section1-info {
+  background-color: #f5f6f8;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 2rem;
+  overflow: auto;
+  max-height: 37rem;
+}
+.cardproductdetail-card-name {
+  font-size: 2.4rem;
+}
+.cardproductdetail-card-description {
+  color: rgba(0, 0, 0, 0.74);
+  margin-bottom: 1rem;
+}
+.cardproductdetaill-major-benefit {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+}
+.cardproductdetaill-major-benefit img {
+  width: 4rem;
+}
+
+.cardproductdetail-section2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: 15px 0px;
+}
+
+.cardproductdetail-section3 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: 15px 0px;
+}
+.cardproductdetail-annualfee {
+  margin: 0.5rem 0rem;
+}
+
+.cardproductdetail-section2-big {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  margin: 20px 0px;
+}
+
+.cardproductdetail-section2-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardproductdetail-section3-big {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  margin: 20px 0px;
+}
+.cardproductdetail-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
+}
+.cardproductdetail-annualfee-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media all and (max-width: 768px) {
+  .cardproductdetail-back {
+    /* background-color: white; */
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .cardproductdetail-container {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    max-width: 1600px;
+    /* min-height: 700px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "notosans";
+  }
+
+  .cardproductdetail-section1 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 1rem;
+  }
+
+  .cardproductdetail-section1-info {
+    width: 100%;
+    height: 300px;
+    background-color: #f5f6f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    overflow: auto;
+  }
+  .cardproductdetail-img-buuton-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem;
+  }
+  .cardproductdetail-apply-button {
+    width: 18rem;
+    height: 4rem;
+    margin: 1rem 2rem;
+    background-color: antiquewhite;
+  }
+}

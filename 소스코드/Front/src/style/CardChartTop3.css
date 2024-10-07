@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "notoserif"; /* 사용할 폰트의 이름을 정의 */
+  src: url(../fonts/NotoSerifKR-Regular.ttf); /* 폰트 파일의 위치 */
+}
+.cardcharttop3-back {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0d1916; */
+}
+.cardcharttop3-container {
+  width: 90%;
+  margin: 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0d1916; */
+  object-fit: fill;
+  min-height: 54rem;
+  margin-bottom: 5rem;
+}
+.embla__slide__content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  min-height: 32rem;
+}
+
+.embla {
+  width: 100%;
+  max-width: 50rem;
+  /* margin: auto; */
+  --slide-height: 35rem;
+  --slide-spacing: 0rem;
+  --slide-size: 50%;
+  margin-top: 3rem;
+}
+.embla__viewport {
+  /* overflow: hidden; */
+}
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  /* margin-right: calc(var(--slide-spacing) * -1); */
+}
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+.embla__slide__number {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  border-radius: 1.8rem;
+  font-size: 4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
+  user-select: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+/* 공통 스타일 */
+.embla__image-container {
+  /* position: relative;*/
+  width: 22rem;
+  height: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.embla__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+/* 1등 - 금색 왕관 */
+.embla__image--rank1::after {
+  content: "\f521"; /* 왕관 아이콘 코드 */
+  font-family: "Font Awesome 5 Free"; /* Font Awesome 사용 */
+  font-weight: 900;
+  color: gold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+}
+
+/* 2등 - 은색 왕관 */
+.embla__image--rank2::after {
+  content: "\f521"; /* 왕관 아이콘 코드 */
+  font-family: "Font Awesome 5 Free"; /* Font Awesome 사용 */
+  font-weight: 900;
+  color: silver;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+}
+
+/* 3등 - 동색 왕관 */
+.embla__image--rank3::after {
+  content: "\f521"; /* 왕관 아이콘 코드 */
+  font-family: "Font Awesome 5 Free"; /* Font Awesome 사용 */
+  font-weight: 900;
+  color: #cd7f32;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+}
+.embla__image--rank1 {
+  filter: drop-shadow(0 0 20px gold);
+}
+
+.embla__image--rank2 {
+  filter: drop-shadow(0 0 20px silver);
+}
+
+.embla__image--rank3 {
+  filter: drop-shadow(0 0 20px #cd7f32);
+}
+
+.embla__controls {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: space-between;
+  gap: 1.2rem;
+  color: white;
+}
+.embla__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  align-items: center;
+  color: white;
+}
+.embla__button {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  width: 3.6rem;
+  height: 3.6rem;
+  z-index: 1;
+  border-radius: 50%;
+  color: var(--text-body);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 100;
+}
+.embla__button:disabled {
+  color: var(--detail-high-contrast);
+}
+.embla__button__svg {
+  width: 50%;
+  height: 50%;
+}
+.embla__dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: calc((2.6rem - 1.4rem) / 2 * -1);
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+.embla__dot {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  position: relative;
+  z-index: 101;
+}
+.embla__dot:after {
+  box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  content: "";
+  color: white;
+}
+.embla__dot--selected:after {
+  box-shadow: inset 0 0 0 0.2rem var(--text-body);
+}
+.embla__slide__number {
+  backface-visibility: hidden;
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "message": "실시간 진단 데이터 전송 완료",
+  "data" : {
+    "pastCardName": "Jade Classic",
+    "futureCardName": "Jade Prime",
+    "pastCardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2657card.png",
+    "futureCardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2703/card_img/34566/2703_1card.png",
+    "futureBenefit": 1280,
+    "pastBenefit": 570,
+    "paymentName": "스타벅스 코리아 철산점",
+    "amount": 35000
+  }
+}

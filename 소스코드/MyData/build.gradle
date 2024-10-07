@@ -1,0 +1,72 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.3.2'
+	id 'io.spring.dependency-management' version '1.1.6'
+	id 'war' // WAR 플러그인 추가
+}
+
+group = 'com.oauth2'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+	providedRuntime // providedRuntime 추가
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-authorization-server'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	runtimeOnly 'com.oracle.database.jdbc:ojdbc11'
+
+	// JSP 지원을 위한 의존성
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat' // 내장 Tomcat 제외
+
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:10.1.26'
+	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:2.0.0'
+	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0'
+
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+
+//	implementation 'net.nurigo:sdk:4.2.7'
+	implementation 'net.nurigo:javaSDK:2.2'
+
+	// https://mvnrepository.com/artifact/org.json/json
+	implementation group: 'org.json', name: 'json', version: '20231013'
+
+
+}
+
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
+// JAR 패키징 비활성화 및 WAR 패키징 활성화
+bootJar {
+	enabled = false
+}
+
+bootWar {
+	enabled = true
+}
+

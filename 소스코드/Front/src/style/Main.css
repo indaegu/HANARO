@@ -1,0 +1,1074 @@
+@font-face {
+  font-family: "notosans"; /* 사용할 폰트의 이름을 정의 */
+  src: url(../fonts/NotoSansKR-Medium.ttf); /* 폰트 파일의 위치 */
+}
+
+/* Main.css */
+.main-back {
+  /* background-color: rgba(245, 245, 245, 1); */
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.main-container {
+  /* background-color: rgba(245, 245, 245, 1); */
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  max-width: 1600px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.main-inner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.main-title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* AlertBenefit */
+.alertbenefit-container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 70vh;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.alertbenefit-top-top h1 strong {
+  font-size: 2.5rem;
+  color: #666;
+}
+
+.alertbenefit-card-img {
+  /* width: 30%; */
+  max-width: 10rem;
+  object-fit: contain;
+  rotate: 90deg;
+}
+
+.alertbenefit-card-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  width: 100%;
+  gap: 2rem;
+  /* top: -8vh; */
+  font-family: "notosans";
+}
+
+.alertbenefit-pastcard-container,
+.alertbenefit-futurecard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 20rem;
+}
+.alertbenefit-futurecard-container h4 {
+  position: relative;
+  top: 2rem;
+}
+.alertbenefit-pastcard-container h4 {
+  position: relative;
+  top: 2rem;
+}
+.alertbenefit-card-name {
+  margin-top: -20px;
+  font-size: 20px;
+  color: rgb(0, 100, 255, 0.8);
+}
+.alertbenefit-card-name-past {
+  margin-top: -20px;
+  font-size: 20px;
+  color: #666;
+}
+.alertbenefit-price-future-benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alertbenefit-price-past-benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alertbenefit-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  width: 100%;
+}
+.alertbenefit-text-container h1 {
+  color: rgb(238, 46, 8);
+  font-size: 27px;
+}
+
+.alertbenefit-text-container span {
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+  font-family: "notosans";
+}
+.alertbenefit-price-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.alertbenefit-top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.alertbenefit-top-top {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.custom-popover-content-2 {
+  /* 위치 조정 */
+  position: absolute !important; /* Popover의 기본 위치 설정을 덮어씀 */
+  top: 40px; /* 원하는 위치에 따라 값 조정 */
+  left: 550px; /* 원하는 위치에 따라 값 조정 */
+  transform: none !important; /* 자동 변환 해제 */
+}
+.alertbenefit-img-container {
+  height: 17rem;
+  width: 17rem;
+}
+.alertbenefit-card-img-individual {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* 이미지가 컨테이너에 맞게 조정되도록 설정 */
+  border-radius: 5px; /* 이미지에도 둥근 테두리 적용 */
+}
+
+/* BenefitBestWorst */
+.benefitbestworst-container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.benefitbestworst-top {
+  margin-top: 20px;
+  min-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  margin-left: 10px;
+}
+
+.benefitbestworst-top a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+}
+
+.benefitbestworst-middle {
+  margin: 60px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefitbestworst-middle .benefitbestworst-benefit {
+  font-size: 30px;
+  color: rgb(8, 111, 238);
+}
+.benefitbestworst-middle .benefitbestworst-price {
+  font-size: 50px;
+}
+
+.benefitbestworst-slidebar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.chakra-tabs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment-item-category {
+  font-size: 1.5rem;
+}
+.payment-item-content-price {
+  font-size: 1.5rem;
+  text-align: right;
+}
+.payment-item-content-benefit-bad,
+.payment-item-content-benefit-good {
+  text-align: right;
+  font-size: 14px;
+}
+.payment-item-content-benefit-bad {
+  color: rgb(238, 46, 8);
+}
+
+.payment-item-content-benefit-good {
+  color: rgb(8, 111, 238);
+}
+
+/* 3d card 부분 */
+.card3d-set-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.card3d-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  /* margin-bottom: 30px; */
+  cursor: pointer;
+}
+
+.card3d-img-individual {
+  width: 35vh;
+  /* height: 200px; */
+  filter: drop-shadow(5px 5px 5px #0000007c);
+}
+.card3d-0 {
+  background-color: rgba(250, 241, 200, 0.5);
+}
+
+.card3d-1 {
+  background-color: rgba(225, 248, 232, 0.7);
+}
+
+.card3d-2 {
+  background-color: rgb(237, 240, 255, 0.7);
+}
+
+.card3d-3 {
+  background-color: rgb(222, 247, 244, 0.7);
+}
+
+/* 로그인블럭 */
+.loginblock-container {
+  position: relative;
+  width: 33%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "notosans";
+}
+.loginblock-container-2 {
+  position: relative;
+  width: 33%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "notosans";
+  border-radius: 15px;
+  border: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+.login-form {
+  font-family: "notosans";
+  width: 80%;
+}
+.login-form-title {
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 20px; /* 각 입력 필드의 하단 여백 */
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+.form-group-password {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block; /* 라벨을 블록 요소로 설정 */
+  margin-bottom: 5px; /* 라벨 하단 여백 */
+}
+
+.form-group input {
+  width: 100%; /* 입력 필드 너비 전체 */
+  padding: 10px; /* 입력 필드 내부 여백 */
+  border: 1px solid #ccc; /* 테두리 설정 */
+  border-radius: 5px; /* 모서리 둥글게 */
+}
+
+.login-button {
+  width: 100%; /* 버튼 너비 전체 */
+  padding: 13px 20px; /* 버튼 내부 여백 */
+  background-color: #00907f; /* 버튼 배경색 */
+  color: white; /* 텍스트 색상 */
+  border: none; /* 테두리 없음 */
+  border-radius: 5px; /* 모서리 둥글게 */
+  cursor: pointer; /* 마우스 오버 시 커서 변경 */
+  font-size: 1.5rem;
+}
+
+.links {
+  text-align: center; /* 링크 텍스트 중앙 정렬 */
+  margin-top: 20px; /* 링크 상단 여백 */
+}
+
+.links > .hvr-underline-reveal {
+  margin: 0 10px; /* 링크 사이의 여백 */
+}
+
+.loginblock-userinfo-section {
+  font-family: "notosans";
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.1);  */
+}
+.loginblock-userinfo-username {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-bottom: 1.5rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.loginblock-userinfo-section2 {
+  margin-left: 10px;
+  font-size: 22px;
+  /* color: white; */
+  color: black;
+}
+.loginblock-userinfo-login {
+  background-color: #ebebeb;
+  border-radius: 25px;
+  padding: 5px 10px;
+  color: black;
+
+  /* color: white; */
+}
+
+.loginblock-button-container {
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 4rem; */
+}
+.loginblock-button-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* gap: 5rem; */
+}
+.loginblock-button-section2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* gap: 5rem; */
+}
+
+/* 기본 스타일 */
+.loginblock-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "notosans";
+  color: rgba(0, 0, 0, 0.7);
+  width: 47%;
+  height: 95%;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.loginblock-button span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+/* 애니메이션 정의 */
+@keyframes loginblockAnimation {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: var(--hover-color);
+  }
+}
+
+/* 애니메이션 없이 기본 전환 적용 */
+.loginblock-button-1,
+.loginblock-button-2,
+.loginblock-button-3,
+.loginblock-button-4 {
+  background-color: #dfedec6e;
+  box-shadow: 0px 0px 12px rgba(164, 164, 164, 0.307);
+  transition: all 0.5s ease; /* 모든 버튼에 동일한 전환 시간 적용 */
+}
+
+.loginblock-button-1:hover {
+  background-color: rgb(105, 209, 197, 0.7);
+}
+
+.loginblock-button-2:hover {
+  background-color: rgb(59, 169, 156, 0.7);
+}
+
+.loginblock-button-3:hover {
+  background-color: rgb(126, 188, 230, 0.7);
+}
+
+.loginblock-button-4:hover {
+  background-color: rgb(137, 128, 245, 0.7);
+}
+/* 호버 시 텍스트, 아이콘, 상세 텍스트 애니메이션 */
+.loginblock-button:hover span {
+  color: white;
+  transform: translateY(-20px) scale(0.8);
+}
+
+.loginblock-button:hover .loginblock-icon {
+  background-color: rgba(255, 255, 255, 1);
+  transform: translateY(-20px) scale(0.9);
+}
+
+.loginblock-button:hover .loginblock-icon img {
+  transform: translateY(-5px) scale(0.7);
+  opacity: 1;
+}
+
+.loginblock-icon {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 0.5rem;
+}
+
+.loginblock-icon-1 img,
+.loginblock-icon-2 img,
+.loginblock-icon-3 img,
+.loginblock-icon-4 img {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  width: 7.5rem;
+  margin-top: 1rem;
+}
+/* 상세 텍스트 애니메이션 */
+.loginblock-detail-text {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3); /* 살짝 투명한 배경 */
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  opacity: 0;
+  z-index: 100;
+  backdrop-filter: blur(5px); /* 뒤쪽 요소를 블러 처리 */
+}
+
+.loginblock-button:hover .loginblock-detail-text {
+  transform: translateY(-235px);
+  opacity: 1;
+}
+
+/* 호버 해제 시 애니메이션 복귀 */
+.loginblock-button span,
+.loginblock-button .loginblock-icon,
+.loginblock-button .loginblock-icon img,
+.loginblock-button .loginblock-detail-text {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* 미니메뉴 */
+.minimenu-container {
+  width: 100%;
+}
+.minimenu-marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.minimenu-div {
+  background-color: aqua;
+  width: 90%;
+  height: 130px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.minimenu-div:hover {
+  opacity: 0.7;
+}
+.minimenu-text {
+  margin: 20px 10px;
+}
+
+.minimenu-img-individual {
+  height: 17vh;
+}
+.minimenu-div1 {
+  /* background-color: rgb(126, 188, 230); */
+  background-color: rgb(105, 209, 197);
+  color: white;
+}
+.minimenu-div2 {
+  /* background-color: rgb(137, 128, 245); */
+  background-color: rgb(59, 169, 156);
+
+  color: white;
+}
+.minimenu-div3 {
+  /* background-color: #435a7c; */
+  background-color: rgb(126, 188, 230);
+  color: white;
+}
+.minimenu-div4 {
+  background-color: rgb(33, 137, 126);
+  color: white;
+}
+
+/* 광고 스와이프 */
+.card3d-title {
+  font-family: "notosans";
+  width: 40%;
+}
+.card3d-title1 {
+  position: relative;
+  right: 5%;
+}
+
+.card3d-title2 {
+  position: relative;
+  right: 25%;
+}
+.card3d-title2 h1,
+.card3d-title2 span {
+  color: white;
+}
+
+.card3d-title3 {
+  position: relative;
+  right: 5%;
+}
+.card3d-title3 h1 {
+  color: white;
+}
+.card3d-title3 span {
+  color: white;
+  font-weight: 100;
+}
+
+.card3d-title4 {
+  position: relative;
+  right: 5%;
+}
+
+.card3d-title4 span {
+  font-weight: 100;
+}
+
+.cardsummury-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* 차크라 직접  */
+.css-oyvc4g {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+/* .css-qlig70 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.main-card-list-text {
+  margin-bottom: 2rem;
+  width: 30%;
+  font-family: "hana-bold";
+}
+.main-card-list-text h2 {
+  font-family: "hana-bold";
+  font-size: 3rem;
+}
+.main-card-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.main-new-card-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* 줄 바꿈을 위해 flex-wrap 사용 */
+  justify-content: space-between; /* 각 줄에서 아이템들이 공간을 차지하도록 조정 */
+  gap: 1rem; /* 각 카드 간의 간격 */
+}
+
+.main-new-card-container {
+  flex: 0 1 calc(25% - 20px); /* 각 카드가 25%의 너비를 가짐 */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* 아래 줄과의 간격 */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "notosans";
+}
+
+.main-new-card-individual-container-img {
+  width: 15rem; /* 이미지가 컨테이너 너비에 맞게 조정 */
+  height: 15rem;
+  margin-bottom: 1rem;
+}
+
+.main-new-card-individual {
+  width: 100%; /* 이미지가 컨테이너 너비에 맞게 조정 */
+  height: 100%; /* 고정된 높이 설정 */
+  object-fit: contain; /* 이미지가 컨테이너에 맞게 조정되도록 설정 */
+  border-radius: 5px; /* 이미지에도 둥근 테두리 적용 */
+  transition: cardFloatUpAndScale 0.3s ease-out; /* hover 해제 시에도 부드럽게 원상 복귀 */
+  cursor: pointer;
+}
+
+.main-new-card-individual-container-img:hover .main-new-card-individual {
+  animation: cardFloatUpAndScale 0.3s ease-out forwards; /* 카드가 위로 올라가는 애니메이션 */
+}
+
+.main-inner-top {
+  margin-top: 1rem;
+}
+.cardsummury-title {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.cardsummury-img-container {
+  width: 22rem; /* 이미지가 컨테이너 너비에 맞게 조정 */
+  height: 22rem;
+  margin: 1.5rem 0rem;
+}
+.swiper-pagination-progressbar-fill {
+  background-color: #00907f !important;
+}
+
+.cardsummury-custom-button {
+  background-color: #cad3d3a0; /* 기본 배경 색상 */
+  color: rgba(0, 0, 0, 0.757); /* 기본 글자 색상 */
+  padding: 10px 15px; /* 패딩 설정 */
+  border-radius: 15px; /* 둥근 모서리 */
+  font-size: 1.2rem; /* 글자 크기 */
+  cursor: pointer; /* 마우스 포인터 */
+  /* transition: background-color 0.3s ease, transform 0.3s ease; */
+  font-family: "notosans";
+}
+
+/* 소득 공제 황금 비율 */
+.income-tax-deduction-container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 400vh;
+  max-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* 전체 컨테이너에서 스크롤을 숨김 */
+}
+
+/* Article */
+.income-tax-deduction-article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  overflow: hidden; /* 전체 컨테이너에서 스크롤을 숨김 */
+}
+
+/* Section */
+.income-tax-section {
+  width: 100%;
+  height: 100%;
+  min-height: calc(80vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -83px;
+  font-family: "notosans";
+  overflow: hidden; /* 각 섹션에서 스크롤을 숨김 */
+}
+.css-4t6ey5[data-status="complete"] {
+  background-color: rgba(62, 191, 171, 1) !important;
+}
+.income-tax-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.income-tax-section1-button {
+  /* height: 100%; */
+  padding: 8px 10px;
+  position: relative;
+  top: 10rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.income-tax-section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+}
+.income-tax-section2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+.income-tax-section2-left,
+.income-tax-section2-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 21rem;
+}
+.income-tax-section2-left-information {
+  height: 8rem;
+}
+
+.income-tax-section2-left-information-article {
+  font-size: 1.2rem;
+}
+.income-tax-section2-right-title {
+  font-size: 1.9rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.income-tax-section2-left-information-sub {
+  opacity: 0.7;
+}
+.income-tax-section2-left-information-article {
+  font-size: 1.5rem;
+}
+.income-tax-section2-right-comment {
+  background-color: rgba(245, 245, 245, 1);
+  border-radius: 15px;
+  padding: 10px 13px 1px 13px;
+  margin-top: 5px;
+}
+.income-tax-section2-right-information {
+  font-size: 1.5rem;
+  color: rgb(24, 169, 147);
+  font-weight: bold;
+}
+
+.hvr-underline-from-center-black {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.custom-tax-table {
+  width: 100%;
+  border-collapse: 25px;
+  margin: 20px 0;
+  border-radius: 25px;
+}
+
+.custom-tax-table-header {
+  background-color: #f4f4f4;
+}
+
+.custom-tax-table-header-row {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.custom-tax-table-header-cell {
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #2d2d2d;
+}
+
+.custom-tax-table-body {
+  background-color: white;
+}
+
+.custom-tax-table-row {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.custom-tax-table-cell {
+  padding: 10px;
+  text-align: left;
+  font-size: 1.4rem;
+  color: #2d2d2d;
+}
+
+.custom-tax-table-cell:nth-child(1) {
+  text-align: center;
+}
+
+.custom-tax-table-row:nth-child(even) {
+  background-color: #f9f9f9; /* 짝수 행에 배경색 추가 */
+}
+
+.custom-tax-table-row:hover {
+  background-color: #f1f1f1; /* 마우스 오버시 행 강조 */
+}
+
+.hvr-underline-from-center-black:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: -2px;
+  background: #000000;
+  height: 6px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center-black:hover:before,
+.hvr-underline-from-center-black:focus:before,
+.hvr-underline-from-center-black:active:before {
+  left: 0;
+  right: 0;
+}
+
+.income-input-container {
+  position: relative;
+  width: 100%;
+  max-width: 34rem;
+  margin-top: 7rem;
+}
+
+.income-input-container input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.6; /* 클릭 전에는 투명하게 */
+}
+
+.income-input-container input::placeholder {
+  color: transparent; /* placeholder 텍스트를 기본적으로 숨김 */
+}
+
+.income-input-container input:focus::placeholder {
+  color: #999; /* 포커스되면 placeholder 텍스트를 보이게 */
+}
+
+.income-input-container input:focus {
+  border-bottom: 2px solid #000; /* 클릭하면 밑줄 색상이 변함 */
+  opacity: 1;
+}
+
+.income-input-container label {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 1.5rem;
+  color: #aaa;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.income-input-container input:focus + label,
+.income-input-container input:not(:placeholder-shown) + label {
+  top: -20px; /* 입력 시 라벨을 위로 이동 */
+  left: 0;
+  font-size: 1.2rem;
+  color: #000;
+}
+.ad-swipe-container {
+  width: 65%;
+  margin: 10px 0px;
+}
+
+@media (max-width: 768px) {
+  .main-inner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0px;
+    gap: 1rem;
+  }
+  .main-inner-top {
+    margin-top: 6rem;
+  }
+  .loginblock-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "notosans";
+  }
+  .loginblock-button-title {
+    width: 7rem;
+  }
+  .ad-swipe-container {
+    width: 100%;
+    height: 200px;
+  }
+  .card3d-container {
+    width: 100%;
+    height: 200px;
+  }
+  .card3d-title {
+    width: 70%;
+  }
+  .card3d-title4,
+  .card3d-title1,
+  .card3d-title2,
+  .card3d-title3 {
+    right: 5%;
+    text-align: right;
+  }
+  .card3d-title4 > h1,
+  .card3d-title1 > h1,
+  .card3d-title2 > h1,
+  .card3d-title3 > h1 {
+    font-size: 1.5rem;
+  }
+}

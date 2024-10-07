@@ -1,0 +1,267 @@
+.recommenddata-back {
+  /* background-color: rgba(245, 250, 251, 1); */
+  /* background-color: rgb(255, 255, 255); */
+  background-color: rgba(254, 254, 254, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.recommenddata-container {
+  background-color: rgb(254, 254, 254);
+  width: 90%;
+  max-width: 1600px;
+  min-height: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  font-family: "notosans";
+  margin-bottom: 10rem;
+}
+.recommenddata-cards-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.recommenddata-loading-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recommenddata-loading-mp4 {
+  width: 70%;
+}
+.recommenddata-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 35rem;
+  border-radius: 15px;
+  background-color: rgba(245, 245, 245, 1);
+  margin: 15px 0px;
+  padding: 3rem 3rem;
+}
+.recommenddata-card-image-container {
+  width: 22rem; /* 이미지가 컨테이너 너비에 맞게 조정 */
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.recommenddata-card-image {
+  width: 100%; /* 이미지가 컨테이너 너비에 맞게 조정 */
+  height: 100%; /* 고정된 높이 설정 */
+  object-fit: contain; /* 이미지가 컨테이너에 맞게 조정되도록 설정 */
+  border-radius: 5px; /* 이미지에도 둥근 테두리 적용 */
+  cursor: pointer;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -10px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 1.8rem;
+}
+.waviy span {
+  font-family: "notosans";
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  animation: waviy 1s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+}
+
+.recommenddata-section1,
+.recommenddata-section2,
+.recommenddata-section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.recommenddata-section1 {
+  width: 30%;
+}
+.recommenddata-section1-top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.recommenddata-section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.recommenddata-section3 {
+  width: 35%;
+}
+.recommenddata-benefit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 20rem;
+  height: 100%;
+}
+.recommenddata-benefit-list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  max-height: 18rem;
+  width: 100%;
+  overflow-y: auto; /* 필요할 때 스크롤바를 활성화 */
+  /* border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 8px 8px; */
+  /* 스크롤바 숨기기 */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.recommenddata-benefit-list::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.recommenddata-benefit-description {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  margin: 6px 0px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+.recommenddata-section1-button {
+  border-radius: 15px;
+  padding: 5px 20px;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease; /* 애니메이션 효과 추가 */
+}
+
+.recommenddata-section1-button:hover {
+  background-color: rgb(49, 130, 246, 0.2); /* 호버 시 배경색 변경 */
+  cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+.recommenddata-benefit-icon {
+  width: 3rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 3px 3px;
+}
+.recommenddata-benefit-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0px;
+  font-size: 1.4rem;
+}
+.recommenddata-benefit-list-inner1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recommenddata-benefit-list-inner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.css-a5mhaz {
+  padding: 0px;
+}
+.recommenddata-top {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recommenddata-arrrow {
+  position: absolute;
+  top: 88%;
+  left: 55%;
+  font-size: 2.5rem;
+  animation: floating 2s ease-in-out infinite;
+}
+.recommenddata-arrrow-2 {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  font-size: 2.5rem;
+  animation: floating 2s ease-in-out infinite;
+}
+.recommenddata-benefit-description-list {
+  position: relative;
+  overflow-y: scroll;
+  height: 13rem;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0); /* 시작점과 끝점에서 원래 위치 */
+  }
+  50% {
+    transform: translateY(-10px); /* 중간 지점에서 20픽셀 위로 이동 */
+  }
+}
+
+@media (max-width: 768px) {
+  /* 768px 이하에서 적용될 스타일 */
+  .recommenddata-card {
+    flex-direction: column; /* 행 대신 열 방향으로 쌓기 */
+    align-items: stretch; /* 내부 요소를 너비 전체에 맞추기 */
+  }
+
+  .recommenddata-section1,
+  .recommenddata-section2,
+  .recommenddata-section3 {
+    width: 100%; /* 모바일 화면에서는 너비를 100%로 설정 */
+  }
+
+  .recommenddata-card-image-container {
+    width: 100%; /* 이미지 컨테이너도 너비 100% 적용 */
+    height: auto; /* 높이 자동 조절 */
+  }
+
+  .recommenddata-card-image {
+    width: 100%; /* 이미지도 너비 100% 적용 */
+    height: auto; /* 높이 자동 조절 */
+  }
+
+  .recommenddata-section1-button {
+    width: 90%; /* 버튼 너비 조정 */
+  }
+}

@@ -1,0 +1,301 @@
+.cardfind-back {
+  /* background-color: rgba(245, 250, 251, 1); */
+  /* background-color: rgb(245, 245, 245); */
+  background-color: rgba(245, 245, 245, 1);
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.cardfind-container {
+  /* background-color: rgba(245, 250, 251, 1); */
+  /* background-color: rgb(245, 245, 245); */
+  background-color: rgba(245, 245, 245, 1);
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  max-width: 1600px;
+  min-height: 1000px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "notosans";
+}
+.cardfind-bestcard-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.cardfind-bestcard-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardfind-bestcard-title {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cardfind-bestcard-button {
+  border-radius: 15px;
+  background-color: lightgray;
+  padding: 10px 15px;
+}
+.cardfind-bestcard-down {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.popularcard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: -70px;
+}
+
+.popularcard-img-container {
+  width: 330px;
+  height: 330px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@keyframes cardFloatUpAndScale {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    transform: translateY(-10px) scale(1.05); /* 위로 10px 올라가면서 5% 확대 */
+  }
+}
+.popularcard-img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+  transition: cardFloatUpAndScale 0.3s ease-out; /* hover 해제 시에도 부드럽게 원상 복귀 */
+}
+
+.popularcard-img-container:hover .popularcard-img {
+  animation: cardFloatUpAndScale 0.3s ease-out forwards; /* 카드가 위로 올라가는 애니메이션 */
+}
+
+.cardfind-benefits-top3-cards-container {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardfind-benefit-top3-cards-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardfind-benefit-top3-cards-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.cardfind-benefit-top3-card-container {
+  width: 170px;
+  height: 300px;
+  background-size: cover; /* 배경 이미지가 div를 꽉 채우도록 */
+  background-position: center; /* 이미지가 중앙에 위치하도록 */
+  display: flex; /* Flexbox를 사용하여 내부 요소를 정렬 */
+  flex-direction: column;
+  justify-content: center; /* 수평 방향으로 중앙 정렬 */
+  align-items: center; /* 수직 방향으로 중앙 정렬 */
+  border-radius: 15px;
+  cursor: pointer;
+  overflow: hidden; /* 배경 이미지 확대 시 범위를 벗어나는 부분 숨김 */
+  position: relative; /* 상대 위치 설정 */
+}
+
+.cardfind-benefit-top3-card-container::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: inherit; /* 부모의 배경 이미지 상속 */
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out; /* 부드러운 변환 효과 */
+}
+
+.cardfind-benefit-top3-card-container:hover::after {
+  transform: scale(1.1); /* 이미지 확대 */
+}
+
+.cardfind-benefit-top3-card-text {
+  position: relative;
+  top: -30%;
+  color: rgba(0, 0, 0, 0.749); /* 텍스트 색상을 백색으로 */
+  font-size: 20px; /* 텍스트 크기 설정 */
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  display: flex; /* Flexbox를 사용하여 내부 요소를 정렬 */
+  flex-direction: column;
+  justify-content: center; /* 수평 방향으로 중앙 정렬 */
+  align-items: center; /* 수직 방향으로 중앙 정렬 */
+  z-index: 10;
+}
+.cardfind-benefit-top3-cards-article {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* 맨 하단 */
+.cardfind-card-type-popularity-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0px;
+}
+.cardfind-card-type-section1 {
+  width: 60%;
+}
+.cardfind-card-type-section2 {
+  width: 40%;
+}
+.cardfind-card-type-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cardfind-benefit-type-container,
+.cardfind-card-type-container {
+  width: 90%;
+  background-color: rgb(245, 245, 245);
+  height: 200px;
+  border-radius: 15px;
+}
+
+.cardfind-card-type-container {
+  width: 100%;
+}
+.cardfind-benefit-type-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.cardfind-benefit-type-section {
+  width: 30%;
+  height: 90%;
+  border-radius: 15px;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cardfind-benefit-type-section img {
+  /* filter: drop-shadow(5px 5px 5px #0000007c); */
+  width: 120px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* 부드러운 변환 효과 */
+}
+
+.cardfind-card-type-section img {
+  width: 140px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* 부드러운 변환 효과 */
+}
+
+.cardfind-benefit-type-section img:hover,
+.cardfind-card-type-section img:hover {
+  transform: scale(1.1);
+}
+.cardfind-card-type-section-name {
+  position: relative;
+  top: -10px;
+}
+
+.cardfind-card-type-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.cardfind-card-type-section {
+  width: 47%;
+  height: 90%;
+  border-radius: 15px;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardfind-benefit-type-section div,
+.cardfind-card-type-section div {
+  font-size: 18px;
+}
+
+/* 모든 카드로 이동 배너 */
+.cardfind-goto-all-card {
+  width: 100%;
+  height: 65px;
+  border-radius: 15px;
+  background-color: rgb(235, 235, 235); /* 버튼 배경색 */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.cardfind-goto-all-card div {
+  font-size: 28px;
+  opacity: 0.9;
+}
+
+.custom-popover-content {
+  width: 25rem; /* Popover 크기 */
+  padding: 20px; /* 내부 패딩 */
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.9); /* 배경색 */
+
+  /* 위치 조정 */
+  position: absolute !important; /* Popover의 기본 위치 설정을 덮어씀 */
+  top: 20px; /* 원하는 위치에 따라 값 조정 */
+  left: 550px; /* 원하는 위치에 따라 값 조정 */
+  transform: none !important; /* 자동 변환 해제 */
+}

@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "message": "성공적으로 카드 TOP3 데이터를 조회했습니다.",
+  "data": {
+    "categoryName": "여행",
+    "cardDetailList": [
+      {
+        "cardBenefitList": [
+          {
+            "cardBenefit": "마일리지 적립"
+          },
+          {
+            "cardBenefit": "공항 라운지 무료 이용"
+          }
+        ],
+        "cardName": "트래블로그 체크카드",
+        "point": 50000,
+        "cardImgUrl": "global_travel_card.jpg"
+      },
+      {
+        "cardBenefitList": [
+          {
+            "cardBenefit": "호텔 할인"
+          },
+          {
+            "cardBenefit": "여행 보험 무료"
+          }
+        ],
+        "cardName": "Jade Classic ",
+        "point": 30000,
+        "cardImgUrl": "luxury_hotel_card.jpg"
+      },
+      {
+        "cardBenefitList": [
+          {
+            "cardBenefit": "해외 결제 수수료 면제"
+          },
+          {
+            "cardBenefit": "국내도 물론 결제 수수료 면제"
+          }
+        ],
+        "cardName": "Jade Prime",
+        "point": 45000,
+        "cardImgUrl": "premium_abroad_card.jpg"
+      }
+    ]
+  }
+}

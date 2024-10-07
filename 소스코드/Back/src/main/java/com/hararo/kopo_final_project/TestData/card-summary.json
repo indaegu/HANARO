@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "message": "보유카드 데이터 전송 완료",
+  "data": [
+    {
+      "cardName": "Jade Classic",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2657card.png",
+      "cardNumber": "1234-1234-1234-1234",
+      "amount": 20300
+    },
+    {
+      "cardName": "Jade Classic",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2657card.png",
+      "cardNumber": "1234-1234-1234-1234",
+      "amount": 20300
+    },
+    {
+      "cardName": "Jade Classic",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2657card.png",
+      "cardNumber": "1234-1234-1234-1234",
+      "amount": 20300
+    },
+    {
+      "cardName": "Jade Classic",
+      "cardImgUrl": "https://d1c5n4ri2guedi.cloudfront.net/card/2657/card_img/32434/2657card.png",
+      "cardNumber": "1234-1234-1234-1234",
+      "amount": 20300
+    }
+  ]
+}

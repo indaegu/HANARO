@@ -1,0 +1,47 @@
+.recommend-certificate-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: calc(100vh - 150px);
+  gap: 8rem;
+}
+.recommend-certificate-form-title {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recommend-certificate-form-title1 {
+  font-size: 4rem;
+  margin-bottom: 0.3rem;
+}
+.recommend-certificate-form-title2 {
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+.recommend-certificate-form-button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+.recommend-certificate-form-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+/* 공통 애니메이션 */
+.fade-in {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: scale(1);
+}
