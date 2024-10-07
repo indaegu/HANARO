@@ -85,6 +85,10 @@
 <a href="https://">시연 동영상</a><br/>
 ![image](https://github.com/user-attachments/assets/0362a7c2-b69a-4a3d-b150-b6ed29a446fc)
 
+### 3-4. 성능 모니터링 결과 화면
+![스크린샷 2024-10-07 184306](https://github.com/user-attachments/assets/735a6da8-b812-479e-872e-02571a5415d4)
+
+
 # 4. 본인 소개
 
 | 구분      | 내용                                                                                         | 비고                                       |
