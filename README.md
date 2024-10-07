@@ -60,15 +60,15 @@
 #### 2-3-1. 주요 응용 기술 : PL/SQL
 ![페이지 9 - 판넬 6](https://github.com/user-attachments/assets/025d8eaa-e86e-4101-a4c9-58c7fbd11158)
 
-#### 2-3-2 주요 응용 기술 : Redis
+#### 2-3-2. 주요 응용 기술 : Redis
 ![페이지 10 - 판넬 7](https://github.com/user-attachments/assets/afbb32cd-6ccf-4aeb-8e56-1b1c4083fef3)
 
-#### 2-3-3 주요 응용 기술 : 성능 모니터링 및 부하 테스트 도구
+#### 2-3-3. 주요 응용 기술 : 성능 모니터링 및 부하 테스트 도구
 ![페이지 11 - 판넬 8](https://github.com/user-attachments/assets/19456ff5-173f-4d0c-bdfc-8e864125b776)
 
 - 시계열 메트릭 수집과 메트릭 시각화를 위해 <strong>Prometheus, Grafana</strong> 사용
 
-#### 2-3-4 주요 응용 기술 : 그 외 활용 기술
+#### 2-3-4. 주요 응용 기술 : 그 외 활용 기술
 ![페이지 12](https://github.com/user-attachments/assets/4001edf4-7244-46a9-a4a5-c4c6415e88f2)
 
 # 3. 프로젝트 결과
