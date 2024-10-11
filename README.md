@@ -7,7 +7,7 @@
 # 1. 프로젝트 개요
 
 ### 1-1. 프로젝트 기획 배경
-![페이지 3 - 판넬 2](https://github.com/user-attachments/assets/471005df-15e3-4777-b251-55069670504d)
+![페이지 3](https://github.com/user-attachments/assets/90c1ae38-8142-4a5c-9b04-fa71d87e4493)
 
 - 수익성 개선을 목적으로 카드사들은 고 혜택 카드들을 단종시킴으로서 손님들이 누릴 수 있는 <strong>혜택 감소</strong>
 
@@ -18,7 +18,7 @@
 <span style="font-size: 24px;">&rarr; 손님에게 <strong>편리한 혜택 관리와 최대의 실속</strong>을 제공하는 서비스를 통해 손님 확보</span>
 
 ### 1-2. 프로젝트 주요 기능
-![페이지 5 - 판넬 3](https://github.com/user-attachments/assets/9df03ece-ee75-4bed-ad7d-26b6a2dd2fb4)
+![페이지 5](https://github.com/user-attachments/assets/d6fef963-f763-45b2-a066-1ffc696b5b6d)
 
 - 스마트 소비 진단 : 최근 결제 내역에 대해서 <strong>최적의 결제 카드와 혜택 금액</strong>을 제안
 
@@ -33,7 +33,7 @@
 - 카드 차트 : 다양한 필터와 인기 점수로 카드들의 상세 정보 제공
 
 ### 1-3. 서비스 기대효과
-![페이지 6 - 판넬 4](https://github.com/user-attachments/assets/c9e624ea-b802-4519-a041-cabb4204ce3f)
+![페이지 14](https://github.com/user-attachments/assets/fae70962-9477-4c22-9f24-8039b7da3c21)
 
 # 2. 개발 환경 및 기술적 구현
 
@@ -41,7 +41,7 @@
 ![페이지 7](https://github.com/user-attachments/assets/d1799e70-9443-413b-95ea-b2e8241b96d5)
 
 ### 2-2. 시스템 아키텍처
-![페이지 8 - 판넬 5](https://github.com/user-attachments/assets/b775a7c3-20e3-46de-8396-3b394e355fb6)
+![페이지 6](https://github.com/user-attachments/assets/a45ac0ae-364b-46c3-a520-f6fc09b21c39)
 
 | 분류            | OS           | CPU      | RAM | 저장공간 | 비고                         |
 | --------------- | ------------ | -------- | --- | -------- | ---------------------------- |
@@ -58,18 +58,16 @@
 ### 2-3. 주요 응용 기술
 
 #### 2-3-1. 주요 응용 기술 : PL/SQL
-![페이지 9 - 판넬 6](https://github.com/user-attachments/assets/025d8eaa-e86e-4101-a4c9-58c7fbd11158)
+![페이지 8](https://github.com/user-attachments/assets/c0240875-32cd-498e-92f1-5494ca920617)
+![페이지 9](https://github.com/user-attachments/assets/28aa7530-0896-43f2-86b5-3a865ce3a672)
+![페이지 10](https://github.com/user-attachments/assets/f4aa10da-8311-4567-936b-47ae71f0226a)
 
 #### 2-3-2. 주요 응용 기술 : Redis
-![페이지 10 - 판넬 7](https://github.com/user-attachments/assets/afbb32cd-6ccf-4aeb-8e56-1b1c4083fef3)
-
-#### 2-3-3. 주요 응용 기술 : 성능 모니터링 및 부하 테스트 도구
-![페이지 11 - 판넬 8](https://github.com/user-attachments/assets/19456ff5-173f-4d0c-bdfc-8e864125b776)
-
-- 시계열 메트릭 수집과 메트릭 시각화를 위해 <strong>Prometheus, Grafana</strong> 사용
+![페이지 7](https://github.com/user-attachments/assets/41d83b5c-45f2-47d2-b4f2-a3578be5391c)
 
 #### 2-3-4. 주요 응용 기술 : 그 외 활용 기술
-![페이지 8](https://github.com/user-attachments/assets/5b19b158-74f5-48ac-8a3f-371eb9537d81)
+![페이지 11](https://github.com/user-attachments/assets/13a12b41-d3fe-4951-8fba-ed883d1483dd)
+- 시계열 메트릭 수집과 메트릭 시각화를 위해 <strong>Prometheus, Grafana</strong> 사용
 
 # 3. 프로젝트 결과
 
