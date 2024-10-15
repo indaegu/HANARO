@@ -60,13 +60,13 @@
 #### 2-3-1. 주요 응용 기술 : PL/SQL
 ![페이지 8](https://github.com/user-attachments/assets/c0240875-32cd-498e-92f1-5494ca920617)
 ![페이지 9](https://github.com/user-attachments/assets/28aa7530-0896-43f2-86b5-3a865ce3a672)
-![페이지 10](https://github.com/user-attachments/assets/f4aa10da-8311-4567-936b-47ae71f0226a)
+![페이지 9](https://github.com/user-attachments/assets/c988c55b-dc68-4e02-b8b9-c735095c6d20)
 
 #### 2-3-2. 주요 응용 기술 : Redis
-![페이지 7](https://github.com/user-attachments/assets/41d83b5c-45f2-47d2-b4f2-a3578be5391c)
+![페이지 10](https://github.com/user-attachments/assets/ef3c8dba-6a9b-4c1e-b939-434198d9e658)
 
 #### 2-3-4. 주요 응용 기술 : 그 외 활용 기술
-![페이지 11](https://github.com/user-attachments/assets/13a12b41-d3fe-4951-8fba-ed883d1483dd)
+![페이지 11](https://github.com/user-attachments/assets/267bef15-5467-470d-a014-b792e9d7c53a)
 - 시계열 메트릭 수집과 메트릭 시각화를 위해 <strong>Prometheus, Grafana</strong> 사용
 
 # 3. 프로젝트 결과
