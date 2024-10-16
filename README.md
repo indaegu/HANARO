@@ -80,7 +80,7 @@
 
 ### 3-3. 시연 동영상
 
-<a href="https://">시연 동영상</a><br/>
+<a href="https://youtu.be/HPEBBxdmqnQ?si=1_XhhClZdwvgXdYc">시연 동영상</a><br/>
 ![image](https://github.com/user-attachments/assets/0362a7c2-b69a-4a3d-b150-b6ed29a446fc)
 
 ### 3-4. 성능 모니터링 결과 화면
